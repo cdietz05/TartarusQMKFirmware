@@ -73,7 +73,7 @@
             },
             {
               "showIf": "{ID_WASD_MODE} > 0",
-              "label": "WASD Deadzone Sensitivity",
+              "label": "WASD Deadzone Sensitivity (Left = Highly Sensitive, Right = Less Sensitive)",
               "type": "range",
               "content": ["ID_DEADZONE", 0, 1],
               "options": [10, 255] 
