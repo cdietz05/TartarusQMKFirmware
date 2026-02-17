@@ -1,0 +1,86 @@
+{
+  "name": "Tartarus Mod",
+  "vendorId": "0x444B",
+  "productId": "0x0001",
+  "matrix": {
+    "rows": 5,
+    "cols": 10
+  },
+  "layouts": {
+    "keymap": [
+      [
+        "0,0",
+        "0,1",
+        "0,2",
+        "0,3",
+        "0,4"
+      ],
+      [
+        "1,0",
+        "1,1",
+        "1,2",
+        "1,3",
+        "1,4"
+      ],
+      [
+        "2,0",
+        "2,1",
+        "2,2",
+        "2,3",
+        "2,4"
+      ],
+      [
+        "3,0",
+        "3,1",
+        "3,2",
+        "3,3",
+        {
+          "h": 2
+        },
+        "3,4",
+        "3,5",
+        {
+          "x": 2
+        },
+        "3,8"
+      ],
+      [
+        {
+          "x": 5
+        },
+        "4,5",
+        {
+          "x": 1
+        },
+        "4,7",
+        "4,8",
+        "4,9"
+      ]
+    ]
+  },
+  "menus": [
+    {
+      "label": "Joystick Config",
+      "content": [
+        {
+          "label": "Settings",
+          "content": [
+            {
+              "label": "WASD Mode",
+              "type": "toggle", 
+              "content": ["ID_WASD_MODE", 0, 2],
+              "options": [0,1]
+            },
+            {
+              "showIf": "{ID_WASD_MODE} > 0",
+              "label": "WASD Deadzone Sensitivity",
+              "type": "range",
+              "content": ["ID_DEADZONE", 0, 1],
+              "options": [10, 255] 
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
