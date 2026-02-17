@@ -1,0 +1,3 @@
+# --- FORCE VIA ENABLE ---
+VIA_ENABLE = yes
+RAW_ENABLE = yes
