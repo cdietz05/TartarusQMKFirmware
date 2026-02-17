@@ -83,8 +83,8 @@ void matrix_init(void)
     if (joystick_config.magic != 0x42)
     {
         joystick_config.magic = 0x42;
-        joystick_config.wasd_mode = 0;
-        joystick_config.deadzone = 200;
+        joystick_config.wasd_mode = 1;
+        joystick_config.deadzone = 150;
         eeprom_update_block(&joystick_config, JOYSTICK_EEPROM_ADDR, sizeof(user_joystick_config_t));
     }
 
