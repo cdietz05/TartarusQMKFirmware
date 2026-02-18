@@ -3,25 +3,44 @@ A handwired custom keyboard mod using Dwarfkingkili Mod Kit
 
 To flash to ProMicro with pre compiled code
 1. Download .hex file from pre_compiled_hex folder
+
+<img width="640" height="348" alt="download_hex" src="https://github.com/user-attachments/assets/036cfbf0-b00f-4a59-934c-671ec92a48c9" />
+
 2. Download QMK Toolbox from https://qmk.fm/toolbox
+
+<img width="640" height="348" alt="qmk_toolbox_download" src="https://github.com/user-attachments/assets/7d5d56b8-f69d-4d4c-97fb-7b9230baed7e" />
+
 3. Launch QMK Toolbox
+
+<img width="463" height="395" alt="qmk_toolbox_launch" src="https://github.com/user-attachments/assets/b54e0b31-a37a-4a72-9f60-5ab33449cf83" />
+
 4. Select ATmega32U4 in the MCU drop down
+
+<img width="463" height="395" alt="qmk_toolbox_mcu_select" src="https://github.com/user-attachments/assets/e9511f18-3ccd-4424-abed-24816a64d753" />
+
 5. Press Open and locate the .hex file you downloaded and select it
+
+<img width="463" height="395" alt="qmk_load_hex_file" src="https://github.com/user-attachments/assets/15159002-e31c-4eb9-bbd9-0d9eb2606247" />
+
 6. Select Auto-Flash and jump RST and GND pins on your ProMicro to enter bootloader mode and auto flash the firmware
+
+<img width="463" height="395" alt="qmk_load_auto_flash" src="https://github.com/user-attachments/assets/03c36548-38cc-4648-ac38-c4b4a344123a" />
+<img width="463" height="395" alt="qmk_flash" src="https://github.com/user-attachments/assets/7337cb94-dab0-41e1-b593-c83d8a2e338c" />
+
 7. Note: after the initial flash you will no longer need to jump GND and RST to load the firmware as that will be bound to a key. (Press and hold Encoder Wheel Down and press Top Left Key to enter bootloader mode)
 
 To Remap in Via
 1. Go to usevia.app
 
-<img width="1276" height="697" alt="via_landing_page" src="https://github.com/user-attachments/assets/ac530577-a8ba-4f40-b8bd-0d8a8cb128ba" />
+<img width="640" height="348" alt="via_landing_page" src="https://github.com/user-attachments/assets/ac530577-a8ba-4f40-b8bd-0d8a8cb128ba" />
 
 2. Go to Settings and Enable Show Design tab
 
-<img width="1276" height="697" alt="via_settings_page" src="https://github.com/user-attachments/assets/33e69c23-e3ab-4752-a83e-ef66f81d44e2" />
+<img width="640" height="348" alt="via_settings_page" src="https://github.com/user-attachments/assets/33e69c23-e3ab-4752-a83e-ef66f81d44e2" />
 
 3. Go to Design tab and load the tartarus_mod_via.json that you can download from the via_json folder
 
-<img width="1276" height="697" alt="via_design_tab" src="https://github.com/user-attachments/assets/a83555d7-879c-4033-a2e3-75dc9326e8fe" /> <img width="1276" height="697" alt="via_design_tab_after_load" src="https://github.com/user-attachments/assets/f5123401-c44a-431f-b140-be52a15a40c8" />
+<img width="640" height="348" alt="via_design_tab" src="https://github.com/user-attachments/assets/a83555d7-879c-4033-a2e3-75dc9326e8fe" /> <img width="1276" height="697" alt="via_design_tab_after_load" src="https://github.com/user-attachments/assets/f5123401-c44a-431f-b140-be52a15a40c8" />
 
 4. If it doesn't ask you to pair your keyboard already, go to the Configure tab and Authorize your device (Tartarus Mod)
 
@@ -29,11 +48,11 @@ To Remap in Via
 
 5. Remap keys as you like, there are 4 total layers to remap if needed.
 
-<img width="1276" height="697" alt="via_keymap" src="https://github.com/user-attachments/assets/53b0245e-a2bf-4475-bccf-b50bc996f287" />
+<img width="640" height="348" alt="via_keymap" src="https://github.com/user-attachments/assets/53b0245e-a2bf-4475-bccf-b50bc996f287" />
 
 6. Note: WASD mode is enabled by default and you can switch it off in via but Joystick mode requires a virtual controller to be mapped like XOutput (https://github.com/csutorasa/XOutput)
 
-<img width="1276" height="697" alt="via_wasd_toggle" src="https://github.com/user-attachments/assets/5addbefd-2843-47b2-bf99-3d9d56615d51" />
+<img width="640" height="348" alt="via_wasd_toggle" src="https://github.com/user-attachments/assets/5addbefd-2843-47b2-bf99-3d9d56615d51" />
 
 Here is the key layout:
 
