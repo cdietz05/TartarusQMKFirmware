@@ -23,9 +23,11 @@ Here is the key layout:
 <img width="586" height="325" alt="via_keymap_desc" src="https://github.com/user-attachments/assets/2df94dbd-6a05-4116-8ea4-827e82cde72b" />
 
 This is what the remapping screen will look like in VIA:
+
 <img width="2552" height="1392" alt="via_keymap" src="https://github.com/user-attachments/assets/53b0245e-a2bf-4475-bccf-b50bc996f287" />
 
 Here is the WASD mode toggle and sensitivity slider menu:
+
 <img width="2553" height="1381" alt="via_wasd_toggle" src="https://github.com/user-attachments/assets/5addbefd-2843-47b2-bf99-3d9d56615d51" />
 
 If you want to make changes to the code and compile yourself here are the steps
