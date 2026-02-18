@@ -12,23 +12,32 @@ To flash to ProMicro with pre compiled code
 
 To Remap in Via
 1. Go to usevia.app
+
+<img width="1276" height="697" alt="via_landing_page" src="https://github.com/user-attachments/assets/ac530577-a8ba-4f40-b8bd-0d8a8cb128ba" />
+
 2. Go to Settings and Enable Show Design tab
+
+<img width="1276" height="697" alt="via_settings_page" src="https://github.com/user-attachments/assets/33e69c23-e3ab-4752-a83e-ef66f81d44e2" />
+
 3. Go to Design tab and load the tartarus_mod_via.json that you can download from the via_json folder
+
+<img width="1276" height="697" alt="via_design_tab" src="https://github.com/user-attachments/assets/a83555d7-879c-4033-a2e3-75dc9326e8fe" /> <img width="1276" height="697" alt="via_design_tab_after_load" src="https://github.com/user-attachments/assets/f5123401-c44a-431f-b140-be52a15a40c8" />
+
 4. If it doesn't ask you to pair your keyboard already, go to the Configure tab and Authorize your device (Tartarus Mod)
+
+<img width="479" height="478" alt="HID_device_list" src="https://github.com/user-attachments/assets/d5ac2958-5960-40e7-a082-38b21d0cef33" />
+
 5. Remap keys as you like, there are 4 total layers to remap if needed.
+
+<img width="1276" height="697" alt="via_keymap" src="https://github.com/user-attachments/assets/53b0245e-a2bf-4475-bccf-b50bc996f287" />
+
 6. Note: WASD mode is enabled by default and you can switch it off in via but Joystick mode requires a virtual controller to be mapped like XOutput (https://github.com/csutorasa/XOutput)
+
+<img width="1276" height="697" alt="via_wasd_toggle" src="https://github.com/user-attachments/assets/5addbefd-2843-47b2-bf99-3d9d56615d51" />
 
 Here is the key layout:
 
 <img width="586" height="325" alt="via_keymap_desc" src="https://github.com/user-attachments/assets/2df94dbd-6a05-4116-8ea4-827e82cde72b" />
-
-This is what the remapping screen will look like in VIA:
-
-<img width="2552" height="1392" alt="via_keymap" src="https://github.com/user-attachments/assets/53b0245e-a2bf-4475-bccf-b50bc996f287" />
-
-Here is the WASD mode toggle and sensitivity slider menu:
-
-<img width="2553" height="1381" alt="via_wasd_toggle" src="https://github.com/user-attachments/assets/5addbefd-2843-47b2-bf99-3d9d56615d51" />
 
 If you want to make changes to the code and compile yourself here are the steps
 
