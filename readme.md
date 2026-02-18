@@ -19,6 +19,7 @@ To Remap in Via
 6. Note: WASD mode is enabled by default and you can switch it off in via but Joystick mode requires a virtual controller to be mapped like XOutput (https://github.com/csutorasa/XOutput)
 
 Here is the key layout:
+
 <img width="586" height="325" alt="via_keymap_desc" src="https://github.com/user-attachments/assets/2df94dbd-6a05-4116-8ea4-827e82cde72b" />
 
 This is what the remapping screen will look like in VIA:
