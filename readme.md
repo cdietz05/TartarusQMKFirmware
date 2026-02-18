@@ -40,7 +40,7 @@ To Remap in Via
 
 3. Go to Design tab and load the tartarus_mod_via.json that you can download from the via_json folder
 
-<img width="640" height="348" alt="via_design_tab" src="https://github.com/user-attachments/assets/a83555d7-879c-4033-a2e3-75dc9326e8fe" /> <img width="1276" height="697" alt="via_design_tab_after_load" src="https://github.com/user-attachments/assets/f5123401-c44a-431f-b140-be52a15a40c8" />
+<img width="640" height="348" alt="via_design_tab" src="https://github.com/user-attachments/assets/a83555d7-879c-4033-a2e3-75dc9326e8fe" /> <img width="640" height="348" alt="via_design_tab_after_load" src="https://github.com/user-attachments/assets/f5123401-c44a-431f-b140-be52a15a40c8" />
 
 4. If it doesn't ask you to pair your keyboard already, go to the Configure tab and Authorize your device (Tartarus Mod)
 
