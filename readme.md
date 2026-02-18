@@ -39,6 +39,8 @@ Here is the key layout:
 
 <img width="586" height="325" alt="via_keymap_desc" src="https://github.com/user-attachments/assets/2df94dbd-6a05-4116-8ea4-827e82cde72b" />
 
+
+
 If you want to make changes to the code and compile yourself here are the steps
 
 To compile code 
